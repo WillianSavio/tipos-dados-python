@@ -8,11 +8,11 @@ produto = {
     "Categoria": ""
 }
 
-produto["Nome"] = input("Qual o nome do poduto que deseja cadastrar?")
-produto["Preco"] = input("Qual o preço do produto?")
-produto["Quantidade em estoque"] = input("Qual a quantidade em estoque?")
-produto["Categoria"] = input("Qual a categoria do produto?")
+produto["Nome"] = input("Qual o nome do poduto que deseja cadastrar? \n" )
+produto["Preco"] = input("Qual o preço do produto? \n")
+produto["Quantidade em estoque"] = input("Qual a quantidade em estoque? \n")
+produto["Categoria"] = input("Qual a categoria do produto? \n")
 
-print("Produto cadatrado com sucesso")
+print("\n Produto cadatrado com sucesso")
 
-print(f" Nome: {produto["Nome"]}\n Preço: {produto["Preco"]}\n Estoque: {produto["Quantidade em estoque"]}\n Categoria: {produto["Categoria"]}\n")
+print(f"\n Nome: {produto["Nome"]}\n Preço: {produto["Preco"]}\n Estoque: {produto["Quantidade em estoque"]}\n Categoria: {produto["Categoria"]}\n")
