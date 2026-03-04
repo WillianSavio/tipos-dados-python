@@ -13,6 +13,7 @@ produto["Preco"] = input("Qual o preço do produto? \n")
 produto["Quantidade em estoque"] = input("Qual a quantidade em estoque? \n")
 produto["Categoria"] = input("Qual a categoria do produto? \n")
 
-print("\n Produto cadatrado com sucesso")
+print("\n Produto cadastrado com sucesso")
 
 print(f"\n Nome: {produto["Nome"]}\n Preço: {produto["Preco"]}\n Estoque: {produto["Quantidade em estoque"]}\n Categoria: {produto["Categoria"]}\n")
+
